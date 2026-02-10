@@ -38,7 +38,7 @@ You get the response when you go to `https://gdrate.arcticwoof.xyz/v1/`:
 
 ## Private Endpoints
 
-Private endpoints are endpoints that can only be used by users with authentication. These endpoints are usually used within **Geometry Dash** itself and mainly used as a way to fetch private data from the server to be displayed in the game. We won't provide details on these endpoints for security purposes.
+Private endpoints are endpoints that can only be used by users with authentication. These endpoints are usually used within **Geometry Dash** itself and mainly used as a way to fetch private data from the server to be displayed in the game. I won't provide details on these endpoints for security purposes.
 
 ## Authentication
 
