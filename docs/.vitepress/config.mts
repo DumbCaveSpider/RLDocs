@@ -4,6 +4,35 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Rated Layouts API",
   description: "Official Rated Layouts API Documentation",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "https://ratedlayouts.arcticwoof.xyz/RL_sparkBig.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "96x96",
+        href: "https://ratedlayouts.arcticwoof.xyz/RL_sparkBig.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "192x192",
+        href: "https://ratedlayouts.arcticwoof.xyz/RL_sparkBig.png",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "https://ratedlayouts.arcticwoof.xyz/RL_sparkBig.png",
