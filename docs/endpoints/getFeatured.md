@@ -50,7 +50,7 @@ Other properties:
       "featuredScore": 5020,
       "type": "classic",
       "daily": false,
-      "weekly": false,
+      "weekly": true,
       "monthly": false
     },
     {
@@ -88,7 +88,7 @@ Other properties:
       "featured": 2,
       "featuredScore": 5000,
       "type": "classic",
-      "daily": false,
+      "daily": true,
       "weekly": false,
       "monthly": false
     },
