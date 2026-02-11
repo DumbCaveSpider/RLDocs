@@ -1,6 +1,6 @@
 # /v1/getSends
 
-`GET` the sends of a user
+`GET` the list of all suggested layouts
 
 ## Parameters
 

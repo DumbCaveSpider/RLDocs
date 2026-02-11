@@ -23,16 +23,19 @@
 
 A `layouts` object with the following properties:
 
-| Name               | Type     | Description                       |
-| ------------------ | -------- | --------------------------------- |
-| `levelId`          | `number` | The ID of the layout.             |
-| `levelName`        | `string` | The name of the layout.           |
-| `creatorUsername`  | `string` | The username of the creator.      |
-| `creatorAccountId` | `number` | The account ID of the creator.    |
-| `difficulty`       | `number` | The difficulty of the layout.     |
-| `featured`         | `number` | Whether the layout is featured.   |
-| `featuredScore`    | `number` | The featured score of the layout. |
-| `type`             | `string` | The type of the layout.           |
+| Name               | Type      | Description                              |
+| ------------------ | --------- | ---------------------------------------- |
+| `levelId`          | `number`  | The ID of the layout.                    |
+| `levelName`        | `string`  | The name of the layout.                  |
+| `creatorUsername`  | `string`  | The username of the creator.             |
+| `creatorAccountId` | `number`  | The account ID of the creator.           |
+| `difficulty`       | `number`  | The difficulty of the layout.            |
+| `featured`         | `number`  | Whether the layout is featured.          |
+| `featuredScore`    | `number`  | The featured score of the layout.        |
+| `type`             | `string`  | The type of the layout.                  |
+| `daily`            | `boolean` | Whether the layout was a daily layout.   |
+| `weekly`           | `boolean` | Whether the layout was a weekly layout.  |
+| `monthly`          | `boolean` | Whether the layout was a monthly layout. |
 
 Other properties:
 
@@ -53,7 +56,10 @@ Other properties:
       "difficulty": 4,
       "featured": 0,
       "featuredScore": 0,
-      "type": "platformer"
+      "type": "platformer",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 132868344,
@@ -63,7 +69,10 @@ Other properties:
       "difficulty": 15,
       "featured": 1,
       "featuredScore": 1125,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 100099891,
@@ -73,7 +82,10 @@ Other properties:
       "difficulty": 10,
       "featured": 1,
       "featuredScore": 3345,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 132993882,
@@ -83,7 +95,10 @@ Other properties:
       "difficulty": 25,
       "featured": 1,
       "featuredScore": 3345,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 132751448,
@@ -93,7 +108,10 @@ Other properties:
       "difficulty": 25,
       "featured": 2,
       "featuredScore": 4620,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 102599083,
@@ -103,7 +121,10 @@ Other properties:
       "difficulty": 25,
       "featured": 2,
       "featuredScore": 4609,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 131689063,
@@ -113,7 +134,10 @@ Other properties:
       "difficulty": 15,
       "featured": 0,
       "featuredScore": 0,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 109999108,
@@ -123,7 +147,10 @@ Other properties:
       "difficulty": 20,
       "featured": 1,
       "featuredScore": 3311,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 112687411,
@@ -133,7 +160,10 @@ Other properties:
       "difficulty": 15,
       "featured": 0,
       "featuredScore": 0,
-      "type": "classic"
+      "type": "classic",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     },
     {
       "levelId": 132619182,
@@ -143,7 +173,10 @@ Other properties:
       "difficulty": 8,
       "featured": 0,
       "featuredScore": 0,
-      "type": "platformer"
+      "type": "platformer",
+      "daily": false,
+      "weekly": false,
+      "monthly": false
     }
   ],
   "totalAmount": 962,

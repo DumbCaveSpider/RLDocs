@@ -12,7 +12,7 @@ Welcome to the Rated Layouts Documentation. Here you can find all of the public 
 
 ## Rated Layouts' Endpoints
 
-Rated Layouts' endpoints are fetched from this url `https://gdrate.arcticwoof.xyz/`. Most if not all public endpoints doesn't use any form of authentication. There are other endpoints mainly private endpoints required use of authentication to be used.
+Rated Layouts' endpoints are fetched from this url `https://gdrate.arcticwoof.xyz/`. Most if not all public endpoints doesn't use any form of authentication.
 
 ## Public Endpoints
 
@@ -38,11 +38,11 @@ You get the response when you go to `https://gdrate.arcticwoof.xyz/v1/`:
 
 ## Private Endpoints
 
-Private endpoints are endpoints that can only be used by users with authentication. These endpoints are usually used within **Geometry Dash** itself and mainly used as a way to fetch private data from the server to be displayed in the game. I won't provide details on these endpoints for security purposes.
+Private endpoints are endpoints that can only be used by users with authentication. These endpoints are usually used within **Geometry Dash** itself and mainly used as a way to fetch private data from the server to be displayed in the game. These endpoints are visible through [Rated Layouts' Geode Mod](https://github.com/DumbCaveSpider/RatedLayouts) source code but aren't documented here.
 
 ## Authentication
 
-Endpoints that uses `POST` requests required some sort of authentication to be used, mainly private endpoints. Rated Layouts' server uses **[Globed Argon](https://argon.globed.dev/)** as its main authentication system and uses the user's uniquely generated argon token which are only obtained through **Geometry Dash** and can not be obtained through any other means.
+Endpoints that uses `POST` requests required some sort of authentication to be used, mainly private endpoints. Rated Layouts' server uses **[Globed Argon](https://github.com/GlobedGD/Argon)** as its main authentication system and uses the user's uniquely generated argon token which are only obtained through **Geometry Dash** and can not be obtained through any other means.
 
 ## Rate Limits
 

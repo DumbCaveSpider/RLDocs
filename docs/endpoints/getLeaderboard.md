@@ -24,8 +24,8 @@ A `leaderboard` object with the following properties:
 | `planets`       | `number` | The planets of the user.                           |
 | `blueCoins`     | `number` | The blue coins of the user.                        |
 | `creatorPoints` | `number` | The creator points of the user.                    |
-| `isBooster`     | `number` | Whether the user is a booster.                     |
-| `isSupporter`   | `number` | Whether the user is a supporter.                   |
+| `isBooster`     | `number` | Whether the user is a Layout Booster.              |
+| `isSupporter`   | `number` | Whether the user is a Layout Supporter.            |
 | `modRole`       | `number` | The mod role of the user. (0=user, 1=mod, 2=admin) |
 | `rank`          | `number` | The leaderboard rank of the user.                  |
 

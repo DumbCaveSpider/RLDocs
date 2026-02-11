@@ -50,6 +50,7 @@ export default defineConfig({
           { text: "getLeaderboard", link: "/endpoints/getLeaderboard" },
           { text: "getMonthly", link: "/endpoints/getMonthly" },
           { text: "getProfile", link: "/endpoints/getProfile" },
+          { text: "getSends", link: "/endpoints/getSends" },
         ],
       },
     ],
