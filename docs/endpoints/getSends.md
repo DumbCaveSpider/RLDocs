@@ -4,7 +4,16 @@
 
 ## Parameters
 
-None
+### Query Parameters
+
+| Parameter   | Description                                         | Required |
+| ----------- | --------------------------------------------------- | -------- |
+| `accountId` | The account ID of the user                          | Yes      |
+| `username`  | The username of the user                            | Yes      |
+| `amount`    | The number of layouts to retrieve per page. (1-100) | No       |
+| `page`      | The page number of the layouts to retrieve.         | No       |
+
+> Only required either `accountId` or `username` present, not both.
 
 ## Response
 
