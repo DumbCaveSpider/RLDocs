@@ -10,31 +10,37 @@ None
 
 A `layouts` object with the following properties:
 
-| Name               | Type     | Description                         |
-| ------------------ | -------- | ----------------------------------- |
-| `levelId`          | `number` | The ID of the layout.               |
-| `levelName`        | `string` | The name of the layout.             |
-| `creatorUsername`  | `string` | The username of the creator.        |
-| `creatorAccountId` | `number` | The account ID of the creator.      |
-| `difficulty`       | `number` | The difficulty of the layout.       |
-| `featured`         | `number` | Whether the layout is featured.     |
-| `featuredScore`    | `number` | The featured score of the layout.   |
-| `type`             | `string` | The type of the layout.             |
-| `timeLeft`         | `number` | The time left in the weekly layout. |
+| Name               | Type      | Description                                             |
+| ------------------ | --------- | ------------------------------------------------------- |
+| `levelId`          | `number`  | The ID of the layout.                                   |
+| `levelName`        | `string`  | The name of the layout.                                 |
+| `creatorUsername`  | `string`  | The username of the creator.                            |
+| `creatorAccountId` | `number`  | The account ID of the creator.                          |
+| `difficulty`       | `number`  | The difficulty of the layout.                           |
+| `featured`         | `number`  | Whether the layout is featured.                         |
+| `featuredScore`    | `number`  | The featured score of the layout.                       |
+| `type`             | `string`  | The type of the layout.                                 |
+| `daily`            | `boolean` | Whether the layout is daily. (Always returns `false`)   |
+| `weekly`           | `boolean` | Whether the layout is weekly. (Always returns `true`)   |
+| `monthly`          | `boolean` | Whether the layout is monthly. (Always returns `false`) |
+| `timeLeft`         | `number`  | The time left in the weekly layout.                     |
 
 ```json
 {
   "layouts": [
     {
-      "levelId": 106007468,
-      "levelName": "8bit Symphony",
-      "creatorUsername": "Chaken",
-      "creatorAccountId": 7824770,
-      "difficulty": 15,
+      "levelId": 132221132,
+      "levelName": "Aquamarine",
+      "creatorUsername": "Navoltski",
+      "creatorAccountId": 11683419,
+      "difficulty": 10,
       "featured": 2,
-      "featuredScore": 1005,
+      "featuredScore": 5020,
       "type": "classic",
-      "timeLeft": -633274
+      "daily": false,
+      "weekly": true,
+      "monthly": false,
+      "timeLeft": 615346
     },
     {
       "levelId": 132119097,
@@ -45,7 +51,10 @@ A `layouts` object with the following properties:
       "featured": 1,
       "featuredScore": 4870,
       "type": "platformer",
-      "timeLeft": -633261
+      "daily": false,
+      "weekly": true,
+      "monthly": false,
+      "timeLeft": -694828
     }
   ]
 }
