@@ -10,27 +10,30 @@ None
 
 A `gauntlet` object with the following properties:
 
-| Name                  | Type     | Description                             |
-| --------------------- | -------- | --------------------------------------- |
-| `gauntletId`          | `number` | The ID of the gauntlet.                 |
-| `gauntletName`        | `string` | The name of the gauntlet.               |
-| `gauntletDescription` | `string` | The description of the gauntlet.        |
-| `minDifficulty`       | `number` | The minimum difficulty of the gauntlet. |
-| `maxDifficulty`       | `number` | The maximum difficulty of the gauntlet. |
-| `layouts`             | `array`  | The layouts in the gauntlet.            |
+| Name                  | Type     | Description                                                                                                |
+| --------------------- | -------- | ---------------------------------------------------------------------------------------------------------- |
+| `gauntletId`          | `number` | The ID of the gauntlet.                                                                                    |
+| `gauntletName`        | `string` | The name of the gauntlet.                                                                                  |
+| `gauntletDescription` | `string` | The description of the gauntlet. Formatted using [Geometry Dash's Tags](https://boomlings.dev/topics/tags) |
+| `minDifficulty`       | `number` | The minimum difficulty of the gauntlet.                                                                    |
+| `maxDifficulty`       | `number` | The maximum difficulty of the gauntlet.                                                                    |
+| `layouts`             | `array`  | The layouts in the gauntlet.                                                                               |
 
 A `layouts` object with the following properties:
 
-| Name               | Type     | Description                       |
-| ------------------ | -------- | --------------------------------- |
-| `levelId`          | `number` | The ID of the layout.             |
-| `levelName`        | `string` | The name of the layout.           |
-| `creatorUsername`  | `string` | The username of the creator.      |
-| `creatorAccountId` | `number` | The account ID of the creator.    |
-| `difficulty`       | `number` | The difficulty of the layout.     |
-| `featured`         | `number` | Whether the layout is featured.   |
-| `featuredScore`    | `number` | The featured score of the layout. |
-| `type`             | `string` | The type of the layout.           |
+| Name               | Type      | Description                              |
+| ------------------ | --------- | ---------------------------------------- |
+| `levelId`          | `number`  | The ID of the layout.                    |
+| `levelName`        | `string`  | The name of the layout.                  |
+| `creatorUsername`  | `string`  | The username of the creator.             |
+| `creatorAccountId` | `number`  | The account ID of the creator.           |
+| `difficulty`       | `number`  | The difficulty of the layout.            |
+| `featured`         | `number`  | Whether the layout is featured.          |
+| `featuredScore`    | `number`  | The featured score of the layout.        |
+| `type`             | `string`  | The type of the layout.                  |
+| `daily`            | `boolean` | Whether the layout was a daily layout.   |
+| `weekly`           | `boolean` | Whether the layout was a weekly layout.  |
+| `monthly`          | `boolean` | Whether the layout was a monthly layout. |
 
 ```json
 [
@@ -49,7 +52,10 @@ A `layouts` object with the following properties:
         "difficulty": 6,
         "featured": 1,
         "featuredScore": 2177,
-        "type": "classic"
+        "type": "classic",
+        "daily": false,
+        "weekly": false,
+        "monthly": false
       },
       {
         "levelId": 124302131,
@@ -59,7 +65,10 @@ A `layouts` object with the following properties:
         "difficulty": 7,
         "featured": 0,
         "featuredScore": 34,
-        "type": "classic"
+        "type": "classic",
+        "daily": false,
+        "weekly": false,
+        "monthly": false
       },
       {
         "levelId": 115623928,
@@ -69,7 +78,10 @@ A `layouts` object with the following properties:
         "difficulty": 7,
         "featured": 1,
         "featuredScore": 1768,
-        "type": "classic"
+        "type": "classic",
+        "daily": false,
+        "weekly": false,
+        "monthly": false
       },
       {
         "levelId": 118945323,
@@ -79,7 +91,10 @@ A `layouts` object with the following properties:
         "difficulty": 8,
         "featured": 1,
         "featuredScore": 550,
-        "type": "classic"
+        "type": "classic",
+        "daily": false,
+        "weekly": false,
+        "monthly": false
       },
       {
         "levelId": 127171478,
@@ -89,7 +104,10 @@ A `layouts` object with the following properties:
         "difficulty": 8,
         "featured": 0,
         "featuredScore": 4200,
-        "type": "classic"
+        "type": "classic",
+        "daily": false,
+        "weekly": false,
+        "monthly": false
       }
     ]
   }
